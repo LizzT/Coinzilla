@@ -1,0 +1,159 @@
+html{
+    font-family: 'Ubuntu',Arial,sans-serif;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+
+row{
+    width: 90%;
+}
+
+.site-footer {
+    background: #182740;
+    color: #fff;
+}
+
+.site-footer a {
+    color: #fff;
+}
+
+input[type="text"].my-input {
+    background: #fff;
+    padding: 0 5px;
+    border-bottom: none;
+    color: #222;
+    box-sizing: border-box;
+}
+input[type="text"].my-input:focus {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.go {
+    background: orange;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    padding: 6px;
+}
+
+div.input {
+    position: relative;
+}
+.my-ads {
+    min-height: 190px;
+    background: #0D3F96;
+}
+.zilla {
+    height: 190px;
+    background: url(../images/coinzilla-join-us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.footer-ablock {
+
+}
+
+.main-art h2 {
+    margin-bottom: 5px;
+}
+
+.main-art p {
+    margin: 3px 0;
+}
+
+.utp {
+    background-color: #182740;
+    padding: 40px 0;
+}
+.hello-zilla {
+    background-image: url(../images/coinzilla-hello.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 -93%;
+    background-size: 33%
+}
+
+.my-utp {
+    padding: 30px 0;
+}
+
+.mb100{
+    margin-bottom:-100px;
+}
+
+
+header {
+    background-color: #182740;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.logo {
+    width: 115px;
+}
+
+.main-nav li {
+    float: left;
+    padding-left: 0;
+    padding-right: 30px;
+
+}
+.main-nav {
+    margin: 0;
+}
+.footer-ablock {
+    margin-top: 100px;
+    margin-bottom: -53px;
+   
+}
+h1
+{ padding-top: 35px;
+    margin-bottom: 0;
+   
+}
+h2{
+
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;}
+button {
+    border: 1px solid #F7931A;
+    padding: 20px 15px;
+    margin-left: 5px;
+    line-height: 0;
+    color: #fff;
+    text-transform: uppercase;
+    background: none;
+    text-transform: uppercase;
+}
+.hello-zilla button {
+
+
+padding: 0 55px;
+background: #F7931A;
+color: #fff;
+ font-weight: 300;
+text-transform: uppercase;
+line-height: 66px;
+font-size: 22px;
+
+    
+}
+.hello-zilla p{
+    padding: 5px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .hello-zilla {
+        background-image: none;
+    }
+}
